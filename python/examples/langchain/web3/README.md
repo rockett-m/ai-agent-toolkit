@@ -26,7 +26,7 @@ pip install radius-ai-agent-sdk-example-langchain-web3
 # Or install from the repository
 git clone git@github.com:radiustechsystems/ai-agent-toolkit.git
 cd ai-agent-toolkit/python/examples/langchain/web3
-pip install -e ".[dev]"
+chmod +x setup_venv.sh && ./setup_venv.sh
 ```
 
 ## Setup
@@ -51,7 +51,7 @@ WALLET_PRIVATE_KEY=your_wallet_private_key_here
 ## Running the Example
 
 ```bash
-python example.py
+(web3) uv run example.py
 ```
 
 This will start an interactive CLI where you can test blockchain operations through natural language, such as:

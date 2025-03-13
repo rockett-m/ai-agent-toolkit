@@ -27,7 +27,7 @@ pip install radius-ai-agent-sdk-example-langchain-uniswap
 # Or install from the repository
 git clone git@github.com:radiustechsystems/ai-agent-toolkit.git
 cd ai-agent-toolkit/python/examples/langchain/uniswap
-pip install -e ".[dev]"
+chmod +x setup_venv.sh && ./setup_venv.sh
 ```
 
 ## Setup
@@ -56,7 +56,7 @@ UNISWAP_BASE_URL=https://trade-api.gateway.uniswap.org/v1
 ## Running the Example
 
 ```bash
-python example.py
+(uniswap) uv run example.py
 ```
 
 This will start an interactive CLI where you can test Uniswap operations through natural language, such as:

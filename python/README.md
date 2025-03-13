@@ -114,7 +114,7 @@ cd ai-agent-toolkit/python
 #### 2. Install Dependencies
 
 ```bash
-pip install -e .
+chmod +x setup_venv.sh && ./setup_venv.sh
 ```
 
 #### 3. Navigate to the LangChain Example
@@ -150,7 +150,7 @@ Note:
 #### 5. Run the Example
 
 ```bash
-python example.py
+(python) uv run example.py
 ```
 
 ## Development Setup
